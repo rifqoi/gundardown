@@ -1,0 +1,51 @@
+---
+#########################################
+# options for knitting a single chapter #
+#########################################
+output:
+  bookdown::pdf_document2:
+    template: templates/brief_template.tex
+    citation_package: biblatex
+  bookdown::html_document2: default
+  bookdown::word_document2: default
+documentclass: book
+bibliography: [bibliography/references.bib, bibliography/additional-references.bib]
+---
+
+# PENDAHULUAN
+
+## Latar Belakang
+Invasi militer yang dilakukan oleh Rusia terhadap Ukraina pada tanggal 24 Februari 2022
+
+Banyak reaksi dari warga internet yang mendukung
+
+## Rumusan Masalah
+Dengan pesatnya kemajuan teknologi informasi saat ini membawa pengaruh 
+
+## Batasan Masalah
+Dengan pesatnya kemajuan teknologi informasi saat ini membawa pengaruh 
+
+## Tujuan Penelitian
+Dengan pesatnya kemajuan teknologi informasi saat ini membawa pengaruh 
+
+## Metode Penelitian
+Dengan pesatnya kemajuan teknologi informasi saat ini membawa pengaruh 
+
+## Sistematika Penulisan
+Untuk meringkas secara ringkas
+
+\begin{minipage}[t]{0.3\textwidth}
+\bfseries BAB 1 
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\textbf{PENDAHULUAN} \smallskip \\
+Bab ini menjelaskan mengenai latar belakang masalah, rumusan masalah, batasan masalah, tujuan penelitian dan metode penelitian yang digunakan \\
+\end{minipage}
+
+\begin{minipage}[t]{0.3\textwidth}
+\bfseries BAB 2
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\textbf{TINJAUAN PUSTAKA} \smallskip \\
+Bab ini menjelaskan mengenai latar belakang masalah, rumusan masalah, batasan masalah, tujuan penelitian dan metode penelitian yang digunakan \\
+\end{minipage}
